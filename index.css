@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "digital-clock-font";
+  src: url("fonts/digital-7/digital-7\ \(mono\).ttf");
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  color: white;
+  height: 450px;
+  width: 500px;
+  background-image: url(https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1300/v1638322988/dgaf0kx93sqye4gp49qa.jpg);
+  background-size: cover;
+}
+.screen {
+  padding: 10px;
+  width: 120px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #023e8a;
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  font-family: "Happy Monkey", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Unbounded", cursive;
+}
+
+button {
+  margin: 10px auto;
+  border: 2px white solid;
+  background-color: #0066cc;
+  color: white;
+  font-family: "digital-clock-font";
+}
+
+h2 {
+  font-family: "digital-clock-font";
+  color: red;
+}
+.new {
+  background-color: rgb(219, 82, 82);
+}
